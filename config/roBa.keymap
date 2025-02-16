@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp ENTER            &kp LS(ENTER)         &kp KP_ENTER              &kp LS(KP_ENTER)  &kp RIGHT_SHIFT                           &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DOUBLE_QUOTES
-&kp LS(RIGHT_SHIFT)  &kp LS(RSHIFT)        &kp LS(RSHIFT)            &kp CARET         &kp NON_US_BACKSLASH  &trans      &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SEMICOLON)
-&kp COMMA            &kp LS(AT_SIGN)       &kp PERIOD                &kp LS(PERIOD)    &kp SLASH             &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
-&kp LS(SLASH)        &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans            &trans                &trans      &trans  &trans                                                  &kp UNDERSCORE
+&kp LANG_ZENKAKUHANKAKU  &kp PIPE              &kp UNDER                 &kp BACKSLASH   &kp RIGHT_SHIFT                           &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DOUBLE_QUOTES
+&kp LS(RIGHT_SHIFT)      &kp LS(RSHIFT)        &kp LS(RSHIFT)            &kp CARET       &kp NON_US_BACKSLASH  &trans      &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(SEMICOLON)
+&kp COMMA                &kp LS(AT_SIGN)       &kp PERIOD                &kp LS(PERIOD)  &kp SLASH             &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
+&kp LS(SLASH)            &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans          &trans                &trans      &trans  &trans                                                  &kp UNDERSCORE
             >;
         };
 
