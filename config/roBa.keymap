@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp LS(NUMBER_1)          &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                          &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp STAR
-&kp LS(NUMBER_6)          &kp LS(NUMBER_7)  &kp CARET         &kp CARET         &kp NON_US_BACKSLASH  &trans      &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
-&kp LS(NON_US_BACKSLASH)  &kp AT_SIGN       &kp LS(AT_SIGN)   &kp LEFT_BRACKET  &kp LS(LEFT_BRACKET)  &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
-&trans                    &trans            &trans            &trans            &trans                &trans      &trans  &trans                                                  &kp UNDERSCORE
+&kp SEMICOLON          &kp LS(SEMICOLON)     &kp COLON                 &kp COLON       &kp RIGHT_BRACKET                         &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp STAR
+&kp LS(RIGHT_BRACKET)  &kp LS(COMMA)         &kp CARET                 &kp CARET       &kp NON_US_BACKSLASH  &trans      &trans  &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
+&kp COMMA              &kp LS(AT_SIGN)       &kp PERIOD                &kp LS(PERIOD)  &kp SLASH             &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
+&kp LS(SLASH)          &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &trans          &trans                &trans      &trans  &trans                                                  &kp UNDERSCORE
             >;
         };
 
@@ -125,10 +125,10 @@
 
         layer_6 {
             bindings = <
-&kp HASH         &kp DOLLAR        &kp PERCENT        &kp CARET             &kp BACKSLASH                             &kp SLASH  &kp RIGHT_BRACE    &kp PIPE              &kp LESS_THAN  &kp GREATER_THAN
-&kp NON_US_BSLH  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LS(SINGLE_QUOTE)  &kp AMPERSAND  &trans      &kp LS(EQUAL)  &kp MINUS  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp SEMICOLON  &kp SQT
-&trans           &kp EQUAL         &kp DOUBLE_QUOTES  &kp EXCLAMATION       &kp QUESTION   &trans      &trans         &kp UNDER  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp COMMA      &kp PERIOD
-&trans           &trans            &trans             &trans                &trans         &trans      &trans         &trans                                                             &kp UNDERSCORE
+&kp HASH         &kp DOLLAR        &kp PERCENT        &kp CARET         &kp BACKSLASH                             &kp SLASH  &kp RIGHT_BRACE    &kp PIPE              &kp LESS_THAN  &kp GREATER_THAN
+&kp NON_US_BSLH  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LS(NUMBER_2)  &kp AMPERSAND  &trans      &kp LS(EQUAL)  &kp MINUS  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp SEMICOLON  &kp SQT
+&trans           &kp EQUAL         &kp DOUBLE_QUOTES  &kp EXCLAMATION   &kp QUESTION   &trans      &trans         &kp UNDER  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp COMMA      &kp PERIOD
+&trans           &trans            &trans             &trans            &trans         &trans      &trans         &trans                                                             &kp UNDERSCORE
             >;
         };
     };
