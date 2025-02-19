@@ -30,7 +30,7 @@
 
         muhennkann {
             bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+            key-positions = <34 9>;
         };
 
         double_quotation {
@@ -43,7 +43,6 @@
             key-positions = <24 25>;
         };
     };
-
 
     macros {
         to_layer_0: to_layer_0 {
